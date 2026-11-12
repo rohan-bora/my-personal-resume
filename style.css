@@ -1,0 +1,74 @@
+style.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333333;
+}
+
+header {
+    background-color: #183153;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #183153;
+    border-bottom: 2px solid #183153;
+    padding-bottom: 8px;
+}
+
+li {
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #183153;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    section {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .profile-photo {
+        width: 110px;
+        height: 110px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+
+}
